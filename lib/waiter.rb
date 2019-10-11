@@ -34,7 +34,8 @@ end
 # end
 
 def best_tipper
-  highest_tip= meals.sort
-  highest_tip.last
+  tip = []
+  tip<< meals.sort
+  tip.last
 end
 end
