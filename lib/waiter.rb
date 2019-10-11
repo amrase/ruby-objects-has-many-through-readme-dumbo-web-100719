@@ -25,4 +25,6 @@ class Waiter
       right_meal.waiter== self 
     end  
 end
+
+def 
 end
