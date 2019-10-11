@@ -24,5 +24,5 @@ class Waiter
     Meal.all.select do | right_meal | 
       right_meal.waiters== self 
     end  
-
+end
 end
