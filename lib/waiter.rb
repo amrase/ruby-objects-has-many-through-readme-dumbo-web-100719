@@ -35,7 +35,7 @@ end
 
 def best_tipper
   tip = []
-  tip<< meals.sort
+  tip.push(meals.sort)
   tip.last
 end
 end
