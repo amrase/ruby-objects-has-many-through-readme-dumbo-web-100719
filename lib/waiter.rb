@@ -33,6 +33,4 @@ def best_tipper
   highest_tip.customer
 end
 
-
-end
 end
