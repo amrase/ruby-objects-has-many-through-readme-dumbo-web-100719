@@ -20,9 +20,9 @@ class Waiter
 
   end
   
-  # def meals 
-  #   Customer.all.select do | right_waiter | 
-  #     right_waiter.meal== self 
-  #   end  
+  def meals 
+    Customer.all.select do | right_waiter | 
+      right_waiter.meal== self 
+    end  
 
 end
